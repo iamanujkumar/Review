@@ -1,0 +1,36 @@
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.review-list {
+  margin-top: 20px;
+}
+
+.review-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.highlighted {
+  font-weight: bold;
+}
+
+/* Colors for sentiment highlights */
+.highlighted.Positive {
+  background-color: #D9F2DD;
+}
+
+.highlighted.Mixed {
+  background-color: #e8bd6d3d;
+}
+
+.highlighted.Negative {
+  background-color: #F2DBD9;
+}
+
+.highlighted.Neutral {
+  background-color: #eaf09b6b;
+}
